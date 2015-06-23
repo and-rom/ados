@@ -1,0 +1,30 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @link 		http://www.dini.su
+* @copyright	2007—2008
+* 
+* @translator	DINI
+* @tr_link		http://www.dini.su
+*
+* @name			Набор языковых строк для секции со списком закачек
+*/
+
+$lang = array(
+
+//-----------------------------------------------
+// Ошибки
+//-----------------------------------------------
+
+'err_upload_is_empty'					=> "Не указано имя файла или файл имеет нулевой размер.",
+'err_upload_not_allowed_ext'			=> "Загружаемый файл имеет недопустимое расширение.",
+'err_upload_is_empty'					=> "Загружаемый файл имеет нулевой размер.",
+'err_upload_move_failed'				=> "Не удалось сохранить загруженный файл.",
+
+);
+
+?>

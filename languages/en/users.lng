@@ -1,0 +1,67 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @link 		http://www.dini.su
+* @copyright	2007—2008
+*
+* @translator	platinum_sn
+* @tr_email		admin@buhgalteria.net
+*
+* @name			Language set for download section
+*/
+
+$lang = array(
+
+'page_title'						=> "User management",
+'page_desc'							=> "Here you can add, delete and edit user accounts.",
+
+'user_name'							=> "User name",
+'user_pass'							=> "Password",
+'user_admin'						=> "Admin",
+'user_lang'							=> "Language",
+'user_max_speed'					=> "Speed, Kbit/s",
+'user_max_amount'					=> "Space limit, MB",
+
+'pass_click_to_edit'				=> "Password is set, but hidden",
+
+'user_delete'						=> "Delete user",
+'js_confirm_user_delete'			=> "Warning! All user data (categories, directories, downloaded files, etc.) is to be deleted now.\\\\nAre you sure you want to proceed?",
+
+'users_list_updated'				=> "Users list was updated.",
+
+//-----------------------------------------------
+// Default categories
+//-----------------------------------------------
+
+'cat_std_programs'					=> "Soft",
+'cat_std_video'						=> "Video",
+'cat_std_music'						=> "Music",
+'cat_std_images'					=> "Images",
+'cat_std_archives'					=> "Archives",
+
+//-----------------------------------------------
+// Errors
+//-----------------------------------------------
+
+'error_no_user_id'					=> "There is no user with such ID.",
+
+'error_user_no_name'				=> "Username is not specified.",
+'error_user_wrong_name'				=> "Username contains invalid characters. Name can contain only A-Z letters, underline sign and digits. It has to begin with letter and contain more than 4 characters.",
+'error_user_must_be_admin'			=> "Can't change administrator status for this user, he is the root administrator of the system: ",
+'error_user_pass_incorrect'			=> "Password for this user is invalid (password can contain only A-Z letters, underline sign and digits, at least 6 characters): ",
+'error_user_no_admin_pass'			=> "You have to define admin password for ",
+'error_make_user_dir'				=> "Failed to create subdirectory for ",
+
+'error_no_such_lang'				=> "Selected language is not installed in the system.",
+
+'js_error_user_not_saved'			=> "Can't delete this user, because information about him is not yet saved to the database.",
+'js_error_user_is_root'				=> "Can't delete this user, because he is the root administrator of the system.",
+'js_error_during_parse_form'		=> "Form processing error: can't detect user ID.",
+
+);
+
+?>

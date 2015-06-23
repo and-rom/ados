@@ -1,0 +1,239 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @link 		http://www.dini.su
+* @copyright	2007—2008
+*
+* @translator	platinum_sn
+* @tr_email		admin@buhgalteria.net
+* 
+* @translator	JluMoHka
+* @tr_email		satin7@cln.ru
+*
+* @name			Language set for download section
+*/
+
+$lang = array(
+
+//-----------------------------------------------
+// Global variables
+//-----------------------------------------------
+
+'yes'								=> "Yes",
+'no'								=> "No",
+'ok'								=> "OK",
+
+'size_b'							=> "bytes",
+'size_kb'							=> "KB",
+'size_mb'							=> "MB",
+'size_gb'							=> "GB",
+
+'per_sec'							=> "/s",
+
+'time_min'							=> "min",
+'time_sec'							=> "s",
+'time_hrs'							=> "h",
+'time_days'							=> "d",
+
+'alert'								=> "Alert",
+'attention'							=> "Warning",
+
+'log_out'							=> "Logout",
+'js_confirm_logout'					=> "Are you sure you want to logout?",
+
+'apply_settings'					=> "Apply settings",
+'apply_defaults'					=> "Restore defaults",
+'settings_applied'					=> "Setting applied.",
+'defaults_applied'					=> "Defaults restored.",
+
+'page_first'						=> "First page",
+'page_previous'						=> "Previous page",
+'page_next'							=> "Next page",
+'page_last'							=> "Last page",
+
+'supported'							=> "Supported",
+'unsupported'						=> "Unsupported",
+'unknown'							=> "Unknown",
+
+'shared'							=> "Shared",
+'here'								=> "here",
+
+'update_avaliable'					=> "<a href='#LINK_INFO#'>New version</a> of the system (#VERSION#) from #DATE# year is available! — <a href='#LINK_DOWNLOAD#'>Download</a>!",
+'build'								=> "Build",
+
+'about_ados'						=> "About ADOS",
+
+//-----------------------------------------------
+// Authorization
+//-----------------------------------------------
+
+'authorization'						=> "Authorization",
+'authorization_desc'				=> "You have to authorize to get access to controls.",
+
+'user_name'							=> "Login",
+'user_pass'							=> "Password",
+'use_port'							=> "Use port <desc>Specify necessary port numer if you're using port forwarding.</desc>",
+'auth_go'							=> "Enter",
+
+//-----------------------------------------------
+// Sections
+//-----------------------------------------------
+
+'sect_auth_lower'					=> "Authorization",
+'sect_download'						=> "DOWNLOADS",
+'sect_download_lower'				=> "Downloads",
+'sect_log'							=> "LOG",
+'sect_log_lower'					=> "Log",
+'sect_categories'					=> "CATEGORIES",
+'sect_categories_lower'				=> "Categories",
+'sect_schedule'						=> "SCHEDULE",
+'sect_schedule_lower'				=> "Schedule",
+'sect_settings'						=> "SETTINGS",
+'sect_settings_lower'				=> "Settings",
+'sect_users'						=> "USERS",
+'sect_users_lower'					=> "Users",
+'sect_modules'						=> "MODULES",
+'sect_modules_lower'				=> "Modules",
+
+//-----------------------------------------------
+// File status
+//-----------------------------------------------
+
+'state_idle'						=> "Idle",
+'state_query'						=> "On query",
+'state_schedule'					=> "Scheduled",
+'state_continue'					=> "Resume is scheduled",
+'state_running'						=> "Downloading",
+'state_paused'						=> "Paused",
+'state_done'						=> "Done",
+'state_stopped'						=> "Stopped",
+'state_blocked'						=> "Blocked",
+'state_error'						=> "Error",
+
+//-----------------------------------------------
+// Errors
+//-----------------------------------------------
+
+'error_cant_load_module'			=> "Can't load module ",
+'error_no_rights'					=> "You have no permission to perform this action.",
+
+'delete_install_dir'				=> "Please delete 'install' directory to prevent unathorized install.",
+'delete_update_dir'					=> "Please delete 'update' directory to prevent unathorized update.",
+'found_task_lock'					=> "File 'task.lock' is detected in root directory.
+										Please check 'Log' section, and files <i>_log/cron_schedule.log</i> and <i>_log/cron_end_download.log</i> for errors.
+										If there are no errors, click <#HERE#> to delete 'task.lock' automatically, or delete it manually.",
+'found_cron_lock'					=> "File 'cron.lock' is detected in root directory.
+										Please check 'Log' section, and files <i>_log/cron_schedule.log</i> and <i>_log/cron_end_download.log</i> for errors.
+										If there are no errors, click <#HERE#> to delete 'cron.lock' automatically, or delete it manually.",
+
+// Authorization
+
+'err_auth_no_username'				=> "Username is not specified.",
+'err_auth_no_password'				=> "Password is not specified.",
+'err_auth_no_uid_nor_username'		=> "Failed to load user info: no such ID nor name.",
+'err_auth_no_such_uid'				=> "Failed to load user info: no user with such ID nor name.",
+'err_auth_wrong_password'			=> "Invalid password.",
+
+// Sections
+
+'err_module_load_failed'			=> "Failed to load the requested module.",
+
+//-----------------------------------------------
+// AJAX
+//-----------------------------------------------
+
+'please_wait'						=> "Please wait...",
+
+// Delete lock files
+
+'js_confirm_delete_lock_file'		=> "Please make sure that there is no information about errors in the log files before deleting lock file.\\\\nContinue delete?",
+
+// Window
+
+'ajax_window_move'					=> "Press and hold down left mouse button to move the window.",
+'ajax_window_close'					=> "Close window",
+
+// Errors
+
+'js_error_init_request'				=> "Failed to initialize AJAX connection.",
+'js_error_xml_response'				=> "Error answer recieved.",
+
+//-----------------------------------------------
+// Даты
+//-----------------------------------------------
+
+'dfull_0'							=>	"Sunday",
+'dfull_1'							=>	"Monday",
+'dfull_2'							=>	"Tuesday",
+'dfull_3'							=>	"Wednesday",
+'dfull_4'							=>	"Thursday",
+'dfull_5'							=>	"Friday",
+'dfull_6'							=>	"Saturday",
+
+'dafull_0'							=>	"Sundays",
+'dafull_1'							=>	"Mondays",
+'dafull_2'							=>	"Tuesdays",
+'dafull_3'							=>	"Wednesdays",
+'dafull_4'							=>	"Thursdays",
+'dafull_5'							=>	"Fridays",
+'dafull_6'							=>	"Saturdays",
+
+'mofull_01'							=> 'January',
+'mofull_02'							=> 'February',
+'mofull_03'							=> 'March',
+'mofull_04'							=> 'April',
+'mofull_05'							=> 'May',
+'mofull_06'							=> 'June',
+'mofull_07'							=> 'July',
+'mofull_08'							=> 'August',
+'mofull_09'							=> 'September',
+'mofull_10'							=> 'October',
+'mofull_11'							=> 'November',
+'mofull_12'							=> 'December',
+
+'mshort_01'							=> 'Jan',
+'mshort_02'							=> 'Feb',
+'mshort_03'							=> 'Mar',
+'mshort_04'							=> 'Apr',
+'mshort_05'							=> 'May',
+'mshort_06'							=> 'Jun',
+'mshort_07'							=> 'Jul',
+'mshort_08'							=> 'Aug',
+'mshort_09'							=> 'Sep',
+'mshort_10'							=> 'Oct',
+'mshort_11'							=> 'Nov',
+'mshort_12'							=> 'Dec',
+
+'mfull_01'							=> 'January',
+'mfull_02'							=> 'February',
+'mfull_03'							=> 'March',
+'mfull_04'							=> 'April',
+'mfull_05'							=> 'May',
+'mfull_06'							=> 'June',
+'mfull_07'							=> 'July',
+'mfull_08'							=> 'August',
+'mfull_09'							=> 'September',
+'mfull_10'							=> 'October',
+'mfull_11'							=> 'November',
+'mfull_12'							=> 'December',
+
+'dshort_0'							=> 'Sun',
+'dshort_1'							=> 'Mon',
+'dshort_2'							=> 'Tue',
+'dshort_3'							=> 'Wed',
+'dshort_4'							=> 'Thu',
+'dshort_5'							=> 'Fri',
+'dshort_6'							=> 'Sat',
+
+'suffix'							=> '',
+
+'time_today'						=> 'Today',
+'time_yesterday'					=> 'Yesterday',
+
+);
+
+?>

@@ -1,0 +1,90 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @copyright	2007—2008
+* 
+* @translator	DINI
+* @tr_link		http://www.dini.su
+*
+* @name			Set of language strings to use during DB convertion process
+*/
+
+$lang = array(
+
+'step_0'							=> "Language Selection",
+'step_0_title'						=> "Database Convertion",
+'step_0_desc'						=> "Welcome to ADOS &mdash; Automatic Downloading System SQLite DB converter.
+										This program will convert current SQLite 2 database file to SQLite 3 database file.",
+
+'converter_select_lang'				=> "Please select language that will be used during convertion",
+
+//-----------------------------------------------
+// Languages
+//-----------------------------------------------
+
+'sect_converter_lower'				=> "SQLite database Convertion",
+'next'								=> "Next >",
+
+'lang_en'							=> "English",
+'lang_ru'							=> "Russian",
+
+'yes'								=> "Yes",
+'no'								=> "No",
+
+//-----------------------------------------------
+// Authorization
+//-----------------------------------------------
+
+'sect_auth_lower'					=> "Authorization",
+'authorization'						=> "Authorization",
+'authorization_desc'				=> "Please log in to the system with your account info.
+										You must have administrative rights to be able to run this update script.",
+
+'user_name'							=> "User name",
+'user_pass'							=> "Password",
+'auth_go'							=> "Log In",
+
+//-----------------------------------------------
+// Errors
+//-----------------------------------------------
+
+'no_sqlite_support'					=> "Can not continue update process because the system reqires SQLite support.",
+
+// Authorization
+
+'err_auth_no_username'				=> "User name was not entered.",
+'err_auth_no_password'				=> "Password was not entered.",
+'err_auth_no_uid_nor_username'		=> "Can not load user info: there is neither user ID, nor user name.",
+'err_auth_no_such_uid'				=> "Can not load user info: there is no user with such ID or name.",
+'err_auth_wrong_password'			=> "Password is incorrect.",
+
+//-----------------------------------------------
+// General strings
+//-----------------------------------------------
+
+'step_1'							=> "Database delete",
+'step_1_title'						=> "Database convertion",
+'step_1_desc'						=> "<b>WARNING:</b> The convertion process may take a few minutes.
+										Please do not interrupt it, do not refresh this page, and do not press 'Next' button more than once!",
+
+'step_2_title'						=> "Convertation completed",
+'step_2_desc'						=> "Please delete 'converter' directory from the system's root directory to prevent unathorized access to the converter.
+										After that you can <a href='<#BASE_URL#>'>log in</a> to the system.",
+
+'delete_current'					=> "Delete SQLite 2.x database file after convertion?<desc>File <i>database.sqlite</i> will be deleted, the new DB uses <i>database.s3db</i> file.</desc>",
+
+//-----------------------------------------------
+// Ошибки
+//-----------------------------------------------
+
+'wrong_system_version'				=> "Converter is supported only by ADOS from version 1.3.0 (beta 1).",
+'no_sqlite3_support'				=> "Your PHP version does not have module that provides SQLite 3.x support. Before continue, it is necessary to install modules <i>php_pdo</i> and <i>php_pdo_sqlite</i>.",
+'cant_unlink_file'					=> "Convertion was done successfully, but the system cannot delete SQLite 2 database file. Please delete file 'database.sqlite' manually from the system's root directory.",
+	
+);
+
+?>

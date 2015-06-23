@@ -1,0 +1,143 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @link 		http://www.dini.su
+* @copyright	2007—2008
+*
+* @translator	platinum_sn
+* @tr_email		admin@buhgalteria.net
+*
+* @name			Language set for download section
+*/
+
+$lang = array(
+
+'page_title'						=> "System modules",
+'page_desc'							=> "Here is the list of installed modules.",
+
+'no_modules'						=> "No modules installed",
+
+'module_default'					=> "Default",
+'module_name'						=> "Name",
+'module_version'					=> "Version",
+'module_info'						=> "Module info for",
+'module_settings'					=> "Module settings",
+'module_delete'						=> "Delete module",
+
+'module_set_default'				=> "Set by default",
+'module_add'						=> "Install (update) module",
+
+'info_module_name'					=> "Name",
+'info_module_desc'					=> "Description",
+'info_module_author'				=> "Author",
+'info_module_version'				=> "Version",
+'info_module_engine_author'			=> "Engine author",
+'info_module_engine_version_support'=> "Engine version support",
+'info_module_engine_version_current'=> "Installed engine version",
+
+'engine_version_plus'				=> "and newer",
+
+'module_enable'						=> "Enable module",
+'module_enabled'					=> "Module enabled",
+
+'module_no_version_info'			=> "No version info",
+'module_update_version'				=> "Update version info",
+
+'module_default_done'				=> "Default module is set.",
+
+'module_needs_update'				=> "Minimum version required:",
+
+// AJAX
+
+'js_confirm_module_delete'			=> "Warning!\\\\nAll information about the module in database, module's settings and its php files are to be deleted.\\\\nAre you sure you want to proceed?",
+'js_module_deleted'					=> "Module has been successfully deleted.",
+
+//-----------------------------------------------
+// Installation
+//-----------------------------------------------
+
+'module_install_title'				=> "Module installation",
+'module_install_next'				=> "Next >",
+'module_install_done'				=> "Finish",
+
+'module_install_step_0_welcome'		=> "Welcome to the Module Install Wizard.",
+'module_install_step_0_note'		=> "<b>Warning:</b> installed modules can call system commands.
+										This is necessary to startup downloads automatically, but except for or instead of standart commands module can also call others, not associated with downloading process.
+										To avoid system damage and data loss, please install only modules from trusted authors and always check MD5 of install packages.",
+'module_install_step_0_choose'		=> "Module(s)' install files are detected in the root directory. You can use one of these files or upload one from your computer.",
+'module_install_step_0_upload'		=> "No module install files detected in the root directory, but you can upload one from your computer.",
+'module_install_step_0_do_install'	=> "Install module:",
+'module_install_step_0_do_upload'	=> "Upload module:",
+'module_install_step_0_do_update'	=> "Update module (if already installed):",
+
+'module_install_step_1_installed'	=> "<#MODULE#> has been successfully installed.",
+'module_install_step_1_updated'		=> "<#MODULE#> has been successfully updated to version <#VERSION#>.",
+'module_install_step_1_settings'	=> "Please specify the necessary settings:",
+
+'module_install_step_2_complete'	=> "Module settings were successfully updated.",
+
+//-----------------------------------------------
+// Warnings
+//-----------------------------------------------
+
+'warning_access'					=> "Only administrators can access this section.",
+'warning_no_modules'				=> "No modules installed. Please install at least one!",
+
+//-----------------------------------------------
+// Errors
+//-----------------------------------------------
+
+'error_no_module_id'				=> "Module ID is not specified.",
+'error_wrong_module_id'				=> "No module with such ID.",
+'error_wrong_module_path'			=> "Invalid path to module executable file is specified.",
+'error_no_module_settings'			=> "This module has no settings.",
+'error_no_module_identifier'		=> "No module ID nor its key specified.",
+'error_module_file_error'			=> "Module executable file was not found or is not executable.",
+
+'error_cant_delete_files'			=> "Failed to delete module files and (or) directories:\n\n<#LIST#>\n\nPlease delete them manually, if necessary.",
+'error_cant_read_temp_dir'			=> "Failed to access 'tmp' directory.\nPlease make sure that module has necessary rights to read this detrctory.",
+'error_cant_read_root_dir'			=> "Failed to access system's root directory.\nPlease make sure that module has necessary rights to read this detrctory.",
+'error_cant_make_temp_dir'			=> "Failed to create temporery directory in system's root directory.\nPlease make sure that module has necessary rights to write to this detrctory.",
+'error_cant_find_install_file'		=> "Module installation file was not found in system's root directory.",
+'error_cant_copy_to_temp_dir'		=> "Can't copy module installation file to temporary directory.",
+'error_cant_read_module_settings'	=> "Can't read module settings file.",
+'error_no_module_settings'			=> "Can't get module settings.",
+'error_cant_find_module_file'		=> "Can't find module initialization file",
+'error_better_module_present'		=> "Module with such key is already installed in the system or installed module is newer.",
+
+'error_module_disabled'				=> "Default module is disabled.\nPlease enable it first.",
+
+'error_cant_load_module_class'		=> "Failed to initialize base module class.",
+'error_module_not_loaded'			=> "Cant perform specified action, because module was not initialized.",
+'error_module_cant_get_version'		=> "Can't get current version.",
+'error_version_not_supported'		=> "Current version of the program is not supported by this module.",
+'error_module_needs_update'			=> "Current module version is not supported by the system. Please update the module.",
+
+'error_not_enough_space'			=> "User has not enough disk space to save file.",
+'error_too_many_redirects'			=> "Too many redirects were done while processing download link. Required further redirect is impossible.",
+'error_cant_open_socket'			=> "Can't open socket to connect remote server.",
+'error_no_answer'					=> "No answer from the remote server (timeout).",
+'error_null_file_size'				=> "Downloaded file has zero size.",
+'error_cant_connect_ftp'			=> "Can't connect to FTP server.",
+'error_cant_login_ftp'				=> "Can't process authorization at the remote FTP server.",
+'error_cant_get_size'				=> "Can't get filesize on FTP server. Please check specified file path.",
+
+'error_pause_unsupported'			=> "Pause is unsopported by the module associated with the download.",
+'error_continue_unsupported'		=> "Resume is unsopported by the module associated with the download.",
+'error_file_unranged'				=> "Pause is unsopported by the remote server.",
+'error_cant_open_cron_file'			=> "Can't open for writing file in the CRON directory.",
+'error_cant_make_exe'				=> "Can't make created CRON file executable.",
+'error_cant_unlink_cron_file'		=> "Can't delete CRON file with download instructions.",
+'error_cant_unlink_temp_file'		=> "Can't delete temporary CRON file with download instructions.",
+
+// AJAX
+
+'js_error_module_is_active'			=> "Can't delete this module because it is the default module.",
+
+);
+
+?>

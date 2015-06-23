@@ -1,0 +1,849 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @link 		http://www.dini.su
+* @copyright	2007—2008
+*
+* @translator	JluMoHka
+* @tr_email		satin7@cln.ru
+* 
+* @translator	platinum_sn
+* @tr_email		admin@buhgalteria.net
+* 
+* @translator	DINI
+* @tr_link		http://www.dini.su
+*
+* @name			Language set for download section
+*/
+
+$lang = array(
+
+'page_title'						=> "Events log",
+'page_desc'							=> "Here you can access all system and user events, occured while system was working.",
+
+'user_all'							=> "All events",
+'user_share'						=> "Shared events",
+'user_shared'						=> "Shared",
+
+'time_edit'							=> "User schedule",
+'time_edit_button'					=> "Properties",
+'time_limit'						=> "Time restrictions",
+'time_limit_button'					=> "Restrictions",
+
+//-----------------------------------------------
+// Events list
+//-----------------------------------------------
+
+'user_system'						=> "System events",
+
+'groups_error'						=> "Errors",
+'groups_warn'						=> "Warnings",
+'groups_info'						=> "Information",
+
+'log_info'							=> "Detailed info",
+'log_info_button'					=> "Info",
+'log_delete'						=> "Delete event",
+'log_delete_button'					=> "Delete",
+'log_clear'							=> "Clear list",
+'log_clear_button'					=> "Clear",
+
+'events_sort_user'					=> "User",
+'events_sort_time'					=> "Date",
+'events_sort_type'					=> "Type",
+'events_sort_code'					=> "Code",
+'events_sort_msg'					=> "Message",
+
+'events_sort_asc'					=> "Ascending",
+'events_sort_desc'					=> "Descending",
+
+'log_error'							=> "Error",
+'log_warn'							=> "Warning",
+'log_info'							=> "Information",
+
+'event_shared'						=> "Shared",
+
+'no_events'							=> "There are no events for selected group",
+
+'event_info'						=> "Event info",
+'event_date'						=> "Date",
+'event_time'						=> "Time",
+
+'system_event'						=> "[System]",
+
+'js_confirm_event_delete'			=> "Warning! All selected events are to be deleted now.\\\\nAre you sure you want to proceed?",
+'js_confirm_event_clear'			=> "Warning! All events are to be deleted now.\\\\nAre you sure you want to proceed?",
+
+//-----------------------------------------------
+// Event descriptions
+//-----------------------------------------------
+
+'event_info'						=> "Event description",
+
+'event_time'						=> "Event time",
+'event_code'						=> "Code",
+'event_msg'							=> "Short message",
+'event_desc'						=> "Description",
+'event_reason'						=> "Probable reason",
+'event_solution'					=> "Solution",
+'event_misc'						=> "Miscellaneous",
+
+'event_misc_rename_from'			=> "Temporary file name",
+'event_misc_rename_to'				=> "Final file name",
+'event_misc_module_key'				=> "Module key",
+'event_misc_module_id'				=> "Module ID",
+'event_misc_module_path'			=> "File path",
+'event_misc_module_file'			=> "Boot file path",
+'event_misc_free_space'				=> "Free disk space, bytes",
+'event_misc_input_id'				=> "Transmitted ID",
+'event_misc_input_ids'				=> "Transmitted IDs",
+'event_misc_user_id'				=> "User ID",
+'event_misc_input_value'			=> "Specified value",
+'event_misc_file_id'				=> "File ID",
+'event_misc_file_ids'				=> "Files IDs",
+'event_misc_file_dl_id'				=> "Download ID",
+'event_misc_file_dl_left'			=> "Left to download, bytes",
+'event_misc_file_name'				=> "Filename",
+'event_misc_file_link'				=> "Link",
+'event_misc_file_path'				=> "Save path",
+'event_misc_file_desc'				=> "Desctiption",
+'event_mosc_file_event'				=> "Event ID",
+'event_misc_file_size'				=> "File size, bytes",
+'event_misc_file_host'				=> "Specified FTP host",
+'event_misc_file_speed'				=> "Download speed, bit/s",
+'event_misc_file_dl_speed'			=> "Download speed, bit/s",
+'event_misc_file_dl_time'			=> "Elapsed time, s",
+'event_misc_file_dl_bandwidth'		=> "Spped limit, bytes/s",
+'event_misc_time_id'				=> "Limit ID",
+'event_misc_time_start'				=> "Limit start time",
+'event_misc_time_end'				=> "Limit end time",
+'event_misc_time_interlace'			=> "Alternating limit",
+'event_misc_time_users'				=> "For users",
+'event_misc_time_every'				=> "Use on",
+'event_misc_event_id'				=> "Event ID",
+'event_misc_event_ids'				=> "Events ID",
+'event_misc_event_start'			=> "Download (event) start time",
+'event_misc_event_type'				=> "Alternating event",
+'event_misc_event_time'				=> "Next run time",
+'event_misc_event_user'				=> "Created by",
+'event_misc_event_state'			=> "Event status",
+'event_misc_cache_ids'				=> "Download ID",
+'event_misc_cache_uid'				=> "Session ID",
+'event_misc_error_desc'				=> "Event description",
+'event_misc_running_count'			=> "Current downloads",
+'event_misc_module_id'				=> "Module ID",
+'event_misc_speed_limit'			=> "Speed limit, bytes/s",
+
+//-----------------------------------------------
+// Errors
+//-----------------------------------------------
+
+'error_no_event_id'					=> "No event with such ID.",
+'error_wrong_user_id'				=> "No user with such ID.",
+
+'error_no_event_ids'				=> "Event IDs are not specified.",
+'error_no_events_found'				=> "No events with such ID.",
+'error_cant_delete_event'			=> "Can't delete at least one of the selected events.",
+
+'js_error_select_event_info'		=> "To view event description check the necessary event(s) in the list and press 'Description' button in the menu above the list.",
+'js_error_select_event_delete'		=> "To delete event check the necessary event(s) in the list and press 'Delete' button in the menu above the list.",
+
+//-----------------------------------------------
+// Errors description
+//-----------------------------------------------
+
+'desc_bad_module'					=> "The module does not work",
+'desc_cant_download'				=> "File's download is impossible",
+'desc_bad_link'						=> "The link to a file has not passed system check",
+'desc_stop_error'					=> "Error while stopping the donwload",
+'desc_no_id'						=> "ID is missing",
+'desc_wrong_id'						=> "Wrong ID",
+'desc_cant_change_state'			=> "Can't change donwload state",
+'desc_cant_get_dl_info'				=> "Can't recieve information about the download",
+
+'desc_user_no_right'				=> "The user does not have rights to perform the requested action.",
+'desc_cant_do_state'				=> "Can't perform the requested operation.",
+'desc_incorrect_id'					=> "The server has received nonexistent or incorrect file ID from the sent form.",
+'desc_system_failure'				=> "The installation of the system has been done with errors or there was a failure during the system's work.",
+'desc_see_prev_reason'				=> "The possible reasons see in the description of the previous error.",
+
+'desc_reapply'						=> "There was a failure at sending the form to a server. Try to repeat sending.",
+'desc_file_deleted'					=> "At the moment of form's sending the file was removed by the other user or administrator. Refresh the page to be sure of file's existence.",
+'desc_wrong_way'					=> "The form has been sent to a server incorrectly. Make sure that your browser supports JavaScript and accepts cookies.",
+'desc_see_prev_solution'			=> "For possible solutions see the description of the previous error.",
+'desc_check_connection'				=> "Make sure that Internet connection is available and, in particular, that access to the specified server is avaliable, too.",
+'desc_try_later'					=> "If the error is related to the problems on a remote server, try to start the download later.",
+
+// Engine class
+
+// 'CRON' class
+
+'log_ECC_001'						=> "Can't save downloaded file",
+'log_ECC_001_desc'					=> "The system can't move the file from the temporary directory to the directory specified in the download's properties.",
+'log_ECC_001_reason'				=> "The system does not have rights to move a file or a temporary file was deleted.",
+'log_ECC_001_solution'				=> "Make sure that the system has the necessary rights to move the file.
+										Make sure that the temporary donwloaded file is available.",
+
+'log_ECC_002' 						=> "Can't pause downloading",
+'log_ECC_002_desc' 					=> "The system can't pause file downloading.",
+'log_ECC_002_reason' 				=> "lang_log['desc_see_prev_reason']",
+'log_ECC_002_solution' 				=> "--",
+
+'log_ECC_003' 						=> "Can't stop downloading",
+'log_ECC_003_desc' 					=> "The system can't stop file downloading.",
+'log_ECC_003_reason' 				=> "lang_log['desc_see_prev_reason']",
+'log_ECC_003_solution' 				=> "--",
+
+// 'Downloads' class
+
+'log_ECD_001'						=> "lang_log['desc_bad_module']",
+'log_ECD_001_desc'					=> "lang_modules['error_module_file_error']",
+'log_ECD_001_reason'				=> "The module's executable file was deleted, moved or renamed or the file's attributes were changed.",
+'log_ECD_001_solution'				=> "Make sure that module's executable file is located at the path specified in the 'Settings' tab.
+										Make sure that module's executable file can really be executed.",
+
+'log_ECD_002'						=> "lang_log['desc_no_id']",
+'log_ECD_002_desc'					=> "lang_modules['error_wrong_module_id']",
+'log_ECD_002_reason'				=> "The server received nonexistent or incorrect module ID from the sent form.",
+'log_ECD_002_solution'				=> "lang_log['desc_reapply'].
+										At the the moment of sending the form the module has been turned off or removed by the administrator. Check if the module is available from the list of active modules.
+										lang_log['desc_wrong_way']",
+
+'log_ECD_003'						=> "Wrong path",
+'log_ECD_003_desc'					=> "lang_modules['error_wrong_module_path']",
+'log_ECD_003_reason'				=> "The path to the module's executable file has not been specified or has been entered incorrectly.",
+'log_ECD_003_solution'				=> "Make sure that the path to the executable file specified in the module's settings is correct.",
+
+'log_ECD_004'						=> "lang_log['desc_bad_module']",
+'log_ECD_004_desc'					=> "lang_modules['error_cant_find_module_file']",
+'log_ECD_004_reason'				=> "The module was installed incorrectly or the loading file of the module was deleted.",
+'log_ECD_004_solution'				=> "Make sure that module's installation was correct.
+										Make sure that the boot file of the module is present and the system has rights to read it.",
+
+'log_ECD_005'						=> "lang_log['desc_cant_download']",
+'log_ECD_005_desc'					=> "lang_log['desc_bad_link']",
+'log_ECD_005_reason'				=> "lang_log['desc_see_prev_reason']",
+'log_ECD_005_solution'				=> "lang_log['desc_see_prev_solution']",
+
+'log_ECD_006'						=> "lang_log['desc_cant_download']",
+'log_ECD_006_desc'					=> "lang_download['error_null_download_speed']",
+'log_ECD_006_reason'				=> "User's general download speed was restricted by the administrator.",
+'log_ECD_006_solution'				=> "Ask administrator to increase download speed.",
+
+'log_ECD_007'						=> "lang_log['desc_cant_download']",
+'log_ECD_007_desc'					=> "lang_modules['error_not_enough_space']",
+'log_ECD_007_reason'				=> "The user has exhausted the space on a disk, assigned him for saving downloaded files.",
+'log_ECD_007_solution'				=> "Delete some downloaded files from your directories or ask administrator to increase disk space.",
+
+'log_ECD_008'						=> "lang_log['desc_cant_download']",
+'log_ECD_008_desc'					=> "lang_download['files_cache_is_empty']",
+'log_ECD_008_reason'				=> "There was a failure in system.",
+'log_ECD_008_solution'				=> "Try to restart the downloadings.",
+
+'log_ECD_009'						=> "lang_log['desc_cant_download']",
+'log_ECD_009_desc'					=> "lang_modules['error_too_many_redirects']",
+'log_ECD_009_reason'				=> "The page which is situated under the specified link, refers to the initial page.",
+'log_ECD_009_solution'				=> "If it is possible, ask file's owner to provide you correct link.",
+
+'log_ECD_010'						=> "lang_log['desc_cant_download']",
+'log_ECD_010_desc'					=> "lang_modules['error_cant_open_socket']",
+'log_ECD_010_reason'				=> "Specified link is incorrect or there was an error during establishment connection with the remote server.",
+'log_ECD_010_solution'				=> "Check if the specified link is correct.
+										lang_log['desc_try_later']",
+
+'log_ECD_011'						=> "lang_log['desc_cant_download']",
+'log_ECD_011_desc'					=> "lang_modules['error_no_answer']",
+'log_ECD_011_reason'				=> "The remote server did not response within 30 seconds after recieving the request.",
+'log_ECD_011_solution'				=> "lang_log['desc_check_connection']
+										lang_log['desc_try_later']",
+
+'log_ECD_012'						=> "lang_log['desc_cant_download']",
+'log_ECD_012_desc'					=> "lang_modules['error_cant_connect_ftp']",
+'log_ECD_012_reason'				=> "Can't establish connection to the remote server.",
+'log_ECD_012_solution'				=> "lang_log['desc_check_connection']
+										lang_log['desc_try_later']",
+
+'log_ECD_013'						=> "lang_log['desc_cant_download']",
+'log_ECD_013_desc'					=> "lang_modules['error_cant_login_ftp']",
+'log_ECD_013_reason'				=> "The remote server denied access with the provided login and password.",
+'log_ECD_013_solution'				=> "Make sure that authentication parameters for this server were specified correctly.",
+
+'log_ECD_014'						=> "lang_log['desc_cant_download']",
+'log_ECD_014_desc'					=> "Can't receive file size from the remote FTP server.",
+'log_ECD_014_reason'				=> "There was a failure of the system or the file at the specified path doesn't exist on a remote server.",
+'log_ECD_014_solution'				=> "Check if the specified link is correct.
+										If it is, try to start download later.",
+
+'log_ECD_015'						=> "lang_log['desc_cant_download']",
+'log_ECD_015_desc'					=> "lang_modules['error_cant_open_cron_file']",
+'log_ECD_015_reason'				=> "The system has no rights to write to the specified directory or file.",
+'log_ECD_015_solution'				=> "Make sure that the system has necessary write rights.",
+
+'log_ECD_016'						=> "lang_log['desc_stop_error']",
+'log_ECD_016_desc'					=> "lang_modules['error_cant_unlink_cron_file']",
+'log_ECD_016_reason'				=> "The system has no rights to delete file from CRON's directory or the file doesn't exist.",
+'log_ECD_016_solution'				=> "Make sure that the system has necessary rights and that the specified file exists.",
+
+'log_ECD_017'						=> "lang_log['desc_stop_error']",
+'log_ECD_017_desc'					=> "lang_modules['error_cant_unlink_temp_file']",
+'log_ECD_017_reason'				=> "The system has no rights to delete file from the temporary directory or the file doesn't exist.",
+'log_ECD_017_solution'				=> "Make sure that the system has necessary rights and that the specified file exists.",
+
+// 'Files' class
+
+'log_ECF_001'						=> "lang_log['desc_no_id']",
+'log_ECF_001_desc'					=> "lang_categories['error_no_file_id']",
+'log_ECF_001_reason'				=> "lang_log['desc_incorrect_id']",
+'log_ECF_001_solution'				=> "lang_log['desc_reapply']
+										lang_log['desc_file_deleted']
+										lang_log['desc_wrong_way']",
+
+'log_ECF_002'						=> "lang_log['desc_user_no_right']",
+'log_ECF_002_desc'					=> "Can't execute an action with the file, because the other user owns it.",
+'log_ECF_002_reason'				=> "lang_log['desc_incorrect_id']",
+'log_ECF_002_solution'				=> "lang_log['desc_reapply']
+										lang_log['desc_wrong_way']",
+
+'log_ECF_003'						=> "There are no enabled modules.",
+'log_ECF_003_desc'					=> "lang_files['error_no_modules']",
+'log_ECF_003_reason'				=> "lang_log['desc_system_failure']",
+'log_ECF_003_solution'				=> "Ask administartor to install and enable at least one module for downloading files.",
+
+'log_ECF_004'						=> "lang_log['desc_cant_change_state']",
+'log_ECF_004_desc'					=> "You're trying to change download's state without being an owner of this download.",
+'log_ECF_004_reason'				=> "lang_log['desc_user_no_right']",
+'log_ECF_004_solution'				=> "Ask download's owner or the administator to change download's state.
+										Ask administrator to enable an ability to control the state of shared downloads.",
+
+'log_ECF_005'						=> "lang_log['desc_cant_change_state']",
+'log_ECF_005_desc'					=> "lang_files['error_wrong_state']",
+'log_ECF_005_reason'				=> "lang_log['desc_incorrect_id']",
+'log_ECF_005_solution'				=> "lang_log['desc_reapply']
+										lang_log['desc_wrong_way']",
+
+'log_ECF_006'						=> "lang_log['desc_cant_change_state']",
+'log_ECF_006_desc'					=> "lang_files['error_wrong_file_id']",
+'log_ECF_006_reason'				=> "lang_log['desc_incorrect_id']",
+'log_ECF_006_solution'				=> "lang_log['desc_reapply']
+										lang_log['desc_file_deleted']
+										lang_log['desc_wrong_way']",
+
+'log_ECF_007'						=> "Module isn't enabled",
+'log_ECF_007_desc'					=> "The module with the specified ID isn't enabled.",
+'log_ECF_007_reason'				=> "lang_log['desc_system_failure']",
+'log_ECF_007_solution'				=> "Ask administrator to check system module's functionality.",
+
+'log_ECF_008'						=> "lang_log['desc_no_id']",
+'log_ECF_008_desc'					=> "lang_files['error_no_file_ids']",
+'log_ECF_008_reason'				=> "The server could not receive the list of files' IDs from the sent form.",
+'log_ECF_008_solution'				=> "lang_log['desc_reapply']
+										lang_log['desc_file_deleted']
+										lang_log['desc_wrong_way']",
+
+'log_ECF_009'						=> "lang_log['desc_no_id']",
+'log_ECF_009_desc'					=> "lang_files['error_no_files_found']",
+'log_ECF_009_reason'				=> "The server received nonexistent or incorrect files' IDs from the sent form.",
+'log_ECF_009_solution'				=> "lang_log['desc_reapply']
+										lang_log['desc_file_deleted']
+										lang_log['desc_wrong_way']",
+
+'log_ECF_010'						=> "Can't delete file",
+'log_ECF_010_desc'					=> "lang_files['error_cant_unlink_file']",
+'log_ECF_010_reason'				=> "The system has no rights to delete file from the temporary directory or the file doesn't exist.",
+'log_ECF_010_solution'				=> "Make sure that the system has necessary rights and that the specified file exists.",
+
+// 'Downloads' section
+
+// 'Log' section
+
+'log_ESL_001'						=> "lang_log['desc_no_id']",
+'log_ESL_001_desc'					=> "lang_log['desc_wrong_user_id']",
+'log_ESL_001_reason'				=> "The server received nonexistent or incorrect user ID from the sent form.",
+'log_ESL_001_solution'				=> "lang_log['desc_reapply']
+										At the moment of form's sending the user account was removed by the administrator. Refresh the page to be sure of user's existence.
+										lang_log['desc_wrong_way']",
+
+'log_ESL_002'						=> "lang_log['desc_no_id']",
+'log_ESL_002_desc'					=> "lang_log['desc_no_event_id']",
+'log_ESL_002_reason'				=> "The server received nonexistent or incorrect event ID from the sent form.",
+'log_ESL_002_solution'				=> "lang_log['desc_reapply']
+										At the moment of form's sending the event was removed by the other user or administrator. Refresh the page to be sure of event's existence.
+										lang_log['desc_wrong_way']",
+
+// 'Categories' section
+
+// 'Schedule' section
+
+// 'Settings' section
+
+// 'Users' section
+
+// 'Modules' section
+
+//-----------------------------------------------
+// Warnings descriptions
+//-----------------------------------------------
+
+'desc_empty_field'					=> "The form's field is not filled",
+'desc_wrong_field'					=> "The form's field is filled incorrectly",
+'desc_cant_delete'					=> "Can't delete",
+'desc_cant_run'						=> "Can't start (resume)",
+'desc_cant_pause'					=> "Can't pause",
+'desc_cant_stop'					=> "Can't stop",
+'desc_wrong_event'					=> "Incorrect event for the download",
+'desc_wrong_time'					=> "Forbidden time for the download or for the event",
+'desc_event_blocked'				=> "The event and downloads are blocked",
+
+'desc_wrong_time_desc'				=> "The time of download's start or the event is invalid.",
+'desc_wrong_event_blocked_desc'		=> "The event and all downloads associated with it were blocked due to invalid start time of this event.",
+
+'desc_empty_field_reason'			=> "The required for filling field of the form recieved by the server, is empty.",
+'desc_wrong_field_reason'			=> "Th field of the form received by the server is filled incorrectly.",
+'desc_time_in_disallowed'			=> "The start time of the download or event gets to the time interval during which the administator forbad to start downloads or events.",
+'desc_time_not_in_allowed'			=> "The start time of the download or event doesn't get to any time interval during which the administator allowed to start downloads or events.",
+
+'desc_change_time'					=> "Change start date of the download or event, if possible.",
+'desc_disable_limits'				=> "Ask administator to change or remove restrictions for downloads' or events' start time.",
+
+// Engine class
+
+// 'CRON' class
+
+// 'Downloads' class
+
+'log_WCD_001'						=> "lang_log['desc_cant_download']",
+'log_WCD_001_desc'					=> "lang_modules['error_continue_unsupported']",
+'log_WCD_001_reason'				=> "The module without support of resuming interrupted downloads has been chosen.",
+'log_WCD_001_solution'				=> "Choose the download module with support of resuming downloads.
+										Stop the download and run it again.",
+
+'log_WCD_002'						=> "lang_log['desc_cant_download']",
+'log_WCD_002_desc'					=> "At the moment the whole available speed is in use.",
+'log_WCD_002_reason'				=> "Current downloads use whole amount of allowed speed assigned by the administator for the user.",
+'log_WCD_002_solution'				=> "The download was added to the queue and will be started in turn as far as previous downloads are done.",
+
+'log_WCD_003'						=> "lang_log['desc_cant_pause']",
+'log_WCD_003_desc'					=> "lang_modules['error_pause_unsupported']",
+'log_WCD_003_reason'				=> "The module without support of pausing downloads has been chosen.",
+'log_WCD_003_solution'				=> "Wait till the download proccess ends.
+										Stop the download process.",
+
+'log_WCD_004'						=> "lang_log['desc_cant_pause']",
+'log_WCD_004_desc'					=> "lang_modules['error_file_unranged']",
+'log_WCD_004_reason'				=> "The download is being done from the server without support of partial downloads.",
+'log_WCD_004_solution'				=> "Wait till the download proccess ends.
+										Stop the download process.",
+
+// 'Files' class
+
+'log_WCF_001'						=> "Download creation is forbidden",
+'log_WCF_001_desc'					=> "One or more invalid parameters were specified for the download.",
+'log_WCF_001_reason'				=> "Administrator forbad creation of private downloads.",
+'log_WCF_001_solution'				=> "Try to create a shared download.
+										Ask administrator to enable an abitily to create private downloads.",
+
+'log_WCF_002'						=> "Links cache is empty",
+'log_WCF_002_desc'					=> "lang_files['error_cache_is_empty']",
+'log_WCF_002_reason'				=> "Links cache, which has been created by the system for its' furter parsing, was flushed.",
+'log_WCF_002_solution'				=> "Too much time passed after the form with links' confirmation has been sent. Add the link or a list of links again.
+										There was a failure in work of the system. Try to add the necessary links again.",
+
+'log_WCF_003'						=> "lang_log['desc_wrong_field']",
+'log_WCF_003_desc'					=> "lang_files['error_wrong_file_name']",
+'log_WCF_003_reason'				=> "lang_log['desc_wrong_field_reason']",
+'log_WCF_003_solution'				=> "The field 'File name' contains invalid symbols. Fill the field again, using only allowed symbols, and send the form again.
+										lang_log['desc_reapply']
+										lang_log['desc_wrong_way']",
+
+'log_WCF_004'						=> "lang_log['desc_empty_field']",
+'log_WCF_004_desc'					=> "lang_files['error_no_file_link']",
+'log_WCF_004_reason'				=> "lang_log['desc_empty_field_reason']",
+'log_WCF_004_solution'				=> "The field 'URL link' is not filled. Fill this field anf send the form again.
+										lang_log['desc_reapply']
+										lang_log['desc_wrong_way']",
+
+'log_WCF_005'						=> "lang_log['desc_wrong_field']",
+'log_WCF_005_desc'					=> "The link contains invalid protocol identifier.",
+'log_WCF_005_reason'				=> "lang_log['desc_wrong_field_reason']",
+'log_WCF_005_solution'				=> "The field 'URL link' contains invalid symbols. Fill the field again, using only allowed symbols, and send the form again.
+										lang_log['desc_reapply']
+										lang_log['desc_wrong_way']",
+
+'log_WCF_006'						=> "lang_log['desc_wrong_field']",
+'log_WCF_006_desc'					=> "lang_files['error_wrong_file_name']",
+'log_WCF_006_reason'				=> "lang_log['desc_wrong_field_reason']",
+'log_WCF_006_solution'				=> "The field 'Relative path' contains invalid symbols. Fill the field again, using only allowed symbols, and send the form again.
+										lang_log['desc_reapply']
+										lang_log['desc_wrong_way']",
+
+'log_WCF_007'						=> "The link to the event is required",
+'log_WCF_007_desc'					=> "The administrator enabled the function of linking all downloads to the shared schedule.",
+'log_WCF_007_reason'				=> "The download was not linked to any shared event.",
+'log_WCF_007_solution'				=> "Make a link of the download with one of the shared events.
+										Ask administator to disable linking downloads to shared events.",
+
+'log_WCF_008'						=> "Invalid event ID",
+'log_WCF_008_desc'					=> "lang_files['error_wrong_file_event']",
+'log_WCF_008_reason'				=> "The form sent to the server has errors.",
+'log_WCF_008_solution'				=> "lang_log['desc_reapply']
+										lang_log['desc_wrong_way']",
+
+'log_WCF_009'						=> "The start time of the event is passes.",
+'log_WCF_009_desc'					=> "lang_files['error_wrong_time_event']",
+'log_WCF_009_reason'				=> "The start time of the event has passed before or during sending the form to the server.",
+'log_WCF_009_solution'				=> "Choose the event from the list, which start time is in the future.
+										Unlink the download from the event, if possible.",
+										
+'log_WCF_010'						=> "lang_log['desc_cant_delete']",
+'log_WCF_010_desc'					=> "Can't delete the download.",
+'log_WCF_010_reason'				=> "lang_log['desc_user_no_right']",
+'log_WCF_010_solution'				=> "Other user owns the deleting file. Ask this user or administrator to delete the file.
+										Administrator disabled an ability to delete files. Ask administator to enable this ability.",
+
+'log_WCF_011'						=> "lang_log['desc_cant_delete']",
+'log_WCF_011_desc'					=> "Can't delete the download.",
+'log_WCF_011_reason'				=> "lang_log['desc_user_no_right']",
+'log_WCF_011_solution'				=> "Other user owns the deleting file. Ask this user or administrator to delete the file.
+										Administrator disabled an ability to control shared files. Ask administator to enable this ability.",
+
+'log_WCF_012'						=> "lang_log['desc_wrong_time']",
+'log_WCF_012_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_012_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_012_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_013'						=> "lang_log['desc_wrong_time']",
+'log_WCF_013_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_013_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_013_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_014'						=> "lang_log['desc_wrong_time']",
+'log_WCF_014_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_014_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_014_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_015'						=> "lang_log['desc_wrong_time']",
+'log_WCF_015_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_015_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_015_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_016'						=> "lang_log['desc_wrong_time']",
+'log_WCF_016_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_016_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_016_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_017'						=> "lang_log['desc_wrong_time']",
+'log_WCF_017_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_017_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_017_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_018'						=> "lang_log['desc_wrong_time']",
+'log_WCF_018_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_018_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_018_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_019'						=> "lang_log['desc_wrong_time']",
+'log_WCF_019_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_019_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_019_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_020'						=> "lang_log['desc_wrong_time']",
+'log_WCF_020_desc'					=> "lang_log['desc_wrong_time_desc']",
+'log_WCF_020_reason'				=> "lang_log['desc_time_in_disallowed']",
+'log_WCF_020_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_021'						=> "Downloadings are blocked",
+'log_WCF_021_desc'					=> "Downloadings are blocked due to invalid start time of the events with which they are linked.",
+'log_WCF_021_reason'				=> "Start times of the events to which downloads are linked, don't get in time intervals during which administrator allowed to start downloads or events.",
+'log_WCF_021_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+'log_WCF_022'						=> "Events are blocked",
+'log_WCF_022_desc'					=> "Events are blocked due to invalid start times.",
+'log_WCF_022_reason'				=> "Start times of the events don't get in time intervals during which administrator allowed to start downloads or events.",
+'log_WCF_022_solution'				=> "lang_log['desc_change_time']
+										lang_log['desc_disable_limits']",
+
+// 'Downloads' section
+
+// 'Log' section
+
+'log_WSL_001'						=> "lang_log['desc_cant_delete']",
+'log_WSL_001_desc'					=> "Can't delete one of the selected events.",
+'log_WSL_001_reason'				=> "lang_log['desc_user_no_right']",
+'log_WSL_001_solution'				=> "The deleting event is the system event. Only administrators can delete events of this type.
+										Administrator disabled file deleting. Ask administrator to enable it or ask him to delete the necessary file.",
+
+'log_WSL_002'						=> "lang_log['desc_cant_delete']",
+'log_WSL_002_desc'					=> "Can't delete one of the selected events.",
+'log_WSL_002_reason'				=> "lang_log['desc_user_no_right']",
+'log_WSL_002_solution'				=> "The deleting event is the system event. Only administrators can delete events of this type.
+										Administrator disabled file deleting. Ask administrator to enable it or ask him to delete the necessary file.",
+
+// 'Categories' section
+
+// 'Schedule' section
+
+// 'Settings' section
+
+// 'Users' section
+
+// 'Modules' section
+
+//-----------------------------------------------
+// Information messages descriptions
+//-----------------------------------------------
+
+'desc_file_deleted_from_event'		=> "The connection between the file and the event is broken",
+'desc_file_added_to_event'			=> "The connection between the file and the event is created",
+'desc_cache_added'					=> "Information added to cache",
+'desc_good_time'					=> "Allowed time period",
+'desc_bad_time'						=> "Forbidden time period",
+
+'desc_file_deleted_from_event_desc'	=> "The file was removed from the list of files associated with the event.",
+'desc_file_added_to_event_desc'		=> "The file was added to the list of files associated with the event.",
+'desc_date_in_good'					=> "Start date of the download or event got to the allowed time period.",
+'desc_date_not_in_good'				=> "Start date of the download or event didn't get to the allowed time period.",
+'desc_date_not_in_bad'				=> "Start date of the download or event didn't get to the forbidden time period.",
+'desc_day_not_good'					=> "Start day of the download or event is invalid according to the parameters of the alternate time restriction.",
+'desc_day_is_good'					=> "Start day of the download or event is allowed according to the parameters of the alternate time restriction.",
+
+// Engine class
+
+// 'CRON' class
+
+'log_ICC_001'						=> "Free slots are detected",
+'log_ICC_001_desc'					=> "Information about quantity of slots free for downloading is recieved.",
+
+'log_ICC_002'						=> "The task is done",
+'log_ICC_002_desc'					=> "The automatic task for controlling downloading process progress is successfully completed.",
+
+'log_ICC_003'						=> "The system cache is flushed",
+'log_ICC_003_desc'					=> "The outdated information about added downloads was removed from the system cache.",
+
+'log_ICC_004'						=> "File is downloaded",
+'log_ICC_004_desc'					=> "The proccess of file downloading has been successfully finished.",
+
+'log_ICC_005'						=> "Information about the event was updated",
+'log_ICC_005_desc'					=> "Information about the event started according to the schedule, was successfully updated.",
+
+// 'Downloads' class
+
+'log_ICD_001'						=> "Module has passed verification",
+'log_ICD_001_desc'					=> "Module's executed file was found. File's version is supported by the system.",
+
+'log_ICD_002'						=> "Information about the module is recieved",
+'log_ICD_002_desc'					=> "The necessary information about the module was recieved and saved to the system cache.",
+
+'log_ICD_003'						=> "File downloading was started",
+'log_ICD_003_desc'					=> "The system started downloading file from the specified link.",
+
+'log_ICD_004'						=> "File downloading was resumed",
+'log_ICD_004_desc'					=> "The system resumed downloading file from the specified link.",
+
+'log_ICD_005'						=> "File downloading was paused",
+'log_ICD_005_desc'					=> "The system paused downloading file from the specified link.",
+
+'log_ICD_006'						=> "File downloading was stopped",
+'log_ICD_006_desc'					=> "The system stopped downloading file from the specified link.",
+
+'log_ICD_007'						=> "Information about the download is recieved",
+'log_ICD_007_desc'					=> "The parsed information about the started download was written to the database.",
+
+'log_ICD_008'						=> "The avaliable channel speed is exausted",
+'log_ICD_008_desc'					=> "All avaliable speed for the downloads for user is exausted.",
+
+'log_ICD_009'						=> "Download resuming is available",
+'log_ICD_009_desc'					=> "The system defined the ability to resume download that was interrupted because of an error.",
+
+'log_ICD_010'						=> "Reconnect was done",
+'log_ICD_010_desc'					=> "Due to the idle of the download the reconnection to the remote server was done.",
+
+'log_ICD_011'						=> "Information about download state was updated",
+'log_ICD_011_desc'					=> "The system recieved and saved the updated information about the current state of the download.",
+
+'log_ICD_012'						=> "File with instructions was created",
+'log_ICD_012_desc'					=> "The system has successfully create an executed CRON file with the instructions for download start.",
+
+
+// 'Files' class
+
+'log_ICF_001'						=> "Downloads from the cache were added",
+'log_ICF_001_desc'					=> "Information about the downloads was successfully moved from the cache to the database.",
+
+'log_ICF_002'						=> "Download cache is flushed",
+'log_ICF_002_desc'					=> "Information about the downloads was removed from the cache.",
+
+'log_ICF_003'						=> "File added",
+'log_ICF_003_desc'					=> "Information about the file was successfully added to the database.",
+
+'log_ICF_004'						=> "lang_log['desc_file_deleted_from_event']",
+'log_ICF_004_desc'					=> "lang_log['desc_file_deleted_from_event_desc']",
+
+'log_ICF_005'						=> "lang_log['desc_file_added_to_event']",
+'log_ICF_005_desc'					=> "lang_log['desc_file_added_to_event_desc']",
+
+'log_ICF_006'						=> "lang_log['desc_file_added_to_event']",
+'log_ICF_006_desc'					=> "lang_log['desc_file_added_to_event_desc']",
+
+'log_ICF_007'						=> "lang_log['desc_file_deleted_from_event']",
+'log_ICF_007_desc'					=> "lang_log['desc_file_deleted_from_event_desc']",
+
+'log_ICF_008'						=> "Connection between file and event was restored",
+'log_ICF_008_desc'					=> "File state was set to 'Idle' for ability to start download when associated event would be called.",
+
+'log_ICF_009'						=> "File is updated",
+'log_ICF_009_desc'					=> "Information about the file has been successfully updated after parsing the form data.",
+
+'log_ICF_010'						=> "Information about the file is updated",
+'log_ICF_010_desc'					=> "Information about the file for output in the file properties window was updated according to the made changes.",
+
+'log_ICF_011'						=> "Files list is updated",
+'log_ICF_011_desc'					=> "Files list associated with the user, has been updated after adding or updating the file.",
+
+'log_ICF_012'						=> "Information about the download state was updated",
+'log_ICF_012_desc'					=> "Information about the current download state is recieved from the database.",
+
+'log_ICF_013'						=> "Properties window is opened",
+'log_ICF_013_desc'					=> "Download properties window is opened.",
+
+'log_ICF_014'						=> "lang_log['desc_cant_change_state']",
+'log_ICF_014_desc'					=> "Can't start the download because it is already running.",
+
+'log_ICF_015'						=> "lang_log['desc_cant_change_state']",
+'log_ICF_015_desc'					=> "Can't pause download because it is alredy stopped.",
+
+'log_ICF_016'						=> "Download is stopped",
+'log_ICF_016_desc'					=> "Download was stopped by user.",
+
+'log_ICF_017'						=> "Quantity of the downloads is recieved",
+'log_ICF_017_desc'					=> "Information about the quantity of the running downloads was recieved from the database.",
+
+'log_ICF_018'						=> "File is added to the queue",
+'log_ICF_018_desc'					=> "Due to the reaching the maximum quantity of the running downloads file was added to the download queue.",
+
+'log_ICF_019'						=> "File is updated",
+'log_ICF_019_desc'					=> "The updated information about the file was successfully added to the database.",
+
+'log_ICF_020'						=> "Files are deleted",
+'log_ICF_020_desc'					=> "Information about one or several files was removed from the database and the files were deleted from the hard drive.",
+
+'log_ICF_021'						=> "File is deleted",
+'log_ICF_021_desc'					=> "Information about the file was removed from the database.",
+
+'log_ICF_022'						=> "lang_log['desc_file_deleted_from_event']",
+'log_ICF_022_desc'					=> "lang_log['desc_file_deleted_from_event_desc']",
+
+'log_ICF_023'						=> "File is deleted",
+'log_ICF_023_desc'					=> "File was physically deleted from the hard drive.",
+
+'log_ICF_024'						=> "lang_log['desc_cache_added']",
+'log_ICF_024_desc'					=> "Information about the time restrictions for the user was added to the system cache.",
+
+'log_ICF_025'						=> "lang_log['desc_good_time']",
+'log_ICF_025_desc'					=> "lang_log['desc_date_in_good']",
+
+'log_ICF_026'						=> "lang_log['desc_bad_time']",
+'log_ICF_026_desc'					=> "lang_log['desc_date_not_in_good']",
+
+'log_ICF_027'						=> "lang_log['desc_good_time']",
+'log_ICF_027_desc'					=> "lang_log['desc_date_not_in_bad']",
+
+'log_ICF_028'						=> "lang_log['desc_bad_time']",
+'log_ICF_028_desc'					=> "lang_log['desc_day_not_good']",
+
+'log_ICF_029'						=> "lang_log['desc_good_time']",
+'log_ICF_029_desc'					=> "lang_log['desc_date_in_good']",
+
+'log_ICF_030'						=> "lang_log['desc_bad_time']",
+'log_ICF_030_desc'					=> "lang_log['desc_date_not_in_good']",
+
+'log_ICF_031'						=> "lang_log['desc_good_time']",
+'log_ICF_031_desc'					=> "lang_log['desc_day_is_good']",
+
+'log_ICF_032'						=> "lang_log['desc_good_time']",
+'log_ICF_032_desc'					=> "lang_log['desc_date_not_in_bad']",
+
+'log_ICF_033'						=> "No time restrictions",
+'log_ICF_033_desc'					=> "Information about the time restrictions for the download's start or for user's events is not found.",
+
+'log_ICF_034'						=> "lang_log['desc_cache_added']",
+'log_ICF_034_desc'					=> "Information about the restrictions for the user is added to the system cache.",
+
+'log_ICF_035'						=> "No time restrictions",
+'log_ICF_035_desc'					=> "Update of events and downloads lists is not needed becauseОбновление списков событий и закачек не требуется, так как время действия всех ограничений уже закончилось.",
+
+'log_ICF_036'						=> "The event and downloads are blocked",
+'log_ICF_036_desc'					=> "The event and all downloads associated with it are blocked due to invalid start time of the event.",
+
+'log_ICF_037'						=> "Downloads are blocked",
+'log_ICF_037_desc'					=> "Downloads are blocked because start times of the events with which they are linked are no more available.",
+
+'log_ICF_038'						=> "No further tasks",
+'log_ICF_038_desc'					=> "According to the scedule there are no future tasks at the moment.",
+
+'log_ICF_039'						=> "lang_log['desc_good_time']",
+'log_ICF_039_desc'					=> "lang_log['desc_date_in_good']",
+
+'log_ICF_040'						=> "lang_log['desc_good_time']",
+'log_ICF_040_desc'					=> "lang_log['desc_date_not_in_bad']",
+
+'log_ICF_041'						=> "lang_log['desc_bad_time']",
+'log_ICF_041_desc'					=> "lang_log['desc_day_not_good']",
+
+'log_ICF_042'						=> "lang_log['desc_good_time']",
+'log_ICF_042_desc'					=> "lang_log['desc_date_in_good']",
+
+'log_ICF_043'						=> "lang_log['desc_good_time']",
+'log_ICF_043_desc'					=> "lang_log['desc_day_is_good']",
+
+'log_ICF_044'						=> "lang_log['desc_good_time']",
+'log_ICF_044_desc'					=> "lang_log['desc_date_not_in_bad']",
+
+'log_ICF_045'						=> "No time restrictions",
+'log_ICF_045_desc'					=> "There are no more time restrictions for the previously blocked event.",
+
+'log_ICF_046'						=> "No time restrictions",
+'log_ICF_046_desc'					=> "Updating events and downloads list is not needed because no time restrictions are set.",
+
+'log_ICF_047'						=> "Events were unblocked",
+'log_ICF_047_desc'					=> "Events were unblockedСобытия заблокированы, т.к. времена их начала более не являются недопустимыми.",
+
+// 'Downloads' section
+
+// 'Log' section
+
+'log_ISL_001'						=> "The 'Log' tab was opened",
+'log_ISL_001_desc'					=> "The 'Log' tab was opened by the user.",
+
+'log_ISL_002'						=> "Events list recieved",
+'log_ISL_002_desc'					=> "In reply to the request the events list was created.",
+
+'log_ISL_003'						=> "Description window was opened",
+'log_ISL_003_desc'					=> "User opened the window with the description of the event.",
+
+// 'Categories' section
+
+// 'Schedule' section
+
+// 'Settings' section
+
+// 'Users' section
+
+// 'Modules' section
+
+
+);
+
+?>

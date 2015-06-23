@@ -1,0 +1,105 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @link 		http://www.dini.su
+* @copyright	2007—2008
+*
+* @translator	platinum_sn
+* @tr_email		admin@buhgalteria.net
+*
+* @name			Language set for download section
+*/
+
+$lang = array(
+
+'file_properties'					=> "File properties",
+
+'file_name'							=> "File name <desc>You can use A-Z letters, digits, underline sign, space and dot.</desc>",
+'file_link'							=> "URL Link",
+'file_category'						=> "Category",
+'file_path'							=> "Relative path <desc>You can use A-Z letters, digits, underline sign, space and slash.</desc>",
+'file_user'							=> "Added by",
+'file_size'							=> "Size",
+'file_done'							=> "Done",
+'file_left'							=> "Left",
+'file_bar'							=> "Progress",
+'file_speed'						=> "Speed",
+'file_range'						=> "Resume",
+'file_desc'							=> "Description",
+'file_state'						=> "Current status",
+
+'file_size_unknown'					=> "Unknown",
+
+'file_no_cat'						=> "No category is set",
+
+'file_priority'						=> "Download priority",
+'file_priority_low'					=> "Low",
+'file_priority_med'					=> "Normal",
+'file_priority_high'				=> "High",
+
+'file_control'						=> "Download management",
+'file_module'						=> "Module to use",
+'file_event'						=> "Run",
+'file_no_event'						=> "Manually",
+'file_controls'						=> "Controls",
+
+'file_cache'						=> "Links list processing",
+'file_cache_apply'					=> "Apply selected properties for all downloads?",
+'file_cache_start'					=> "Start all downloads from the list?",
+
+'file_shared_event'					=> "(Shared event)",
+
+'file_edited'						=> "File properties were successfully changed.",
+
+'download_started'					=> "Download started",
+'download_paused'					=> "Download paused",
+'download_stopped'					=> "Download stopped",
+
+'download_run_button'				=> "Start (resume)",
+'download_pause_button'				=> "Pause",
+'download_stop_button'				=> "Stop",
+'download_delete_button'			=> "Delete",
+'download_refresh_button'			=> "Refresh info",
+
+//-----------------------------------------------
+// Errors
+//-----------------------------------------------
+
+'error_no_file_ids'					=> "No file IDs are specified.",
+'error_no_files_found'				=> "No file with specified ID found.",
+'error_no_modules'					=> "There are no enabled download modules in the system.",
+
+'error_no_file_name'				=> "No filename is specified.",
+'error_wrong_file_name'				=> "Filename contrains invalid characters.\nYou can use A-Z letters, digits, underline sign, space and dot.",
+'error_no_file_link'				=> "No link is specified.",
+'error_wrong_file_link'				=> "Specified link is invalid or contains invalid characters.",
+'error_wrong_file_path'				=> "Path contains invalid characters.\nYou can use A-Z letters, digits, underline sign, space and slash.",
+'error_use_shared_event'			=> "Assigning to the shared schedule option has been enabled by the administrator.\nPlease select one of availible dates for current download.",
+'error_wrong_file_event'			=> "Event ID is invalid.",
+'error_wrong_time_event'			=> "Scheduled date & time can't be earlier than current date & time.",
+
+'error_cache_is_empty'				=> "Can't process links list: links cache is empty.",
+
+'error_cant_change_state'			=> "Can't change download status: you have no permissions to perform this action.",
+'error_wrong_state'					=> "Wrong download status ID is transmitted.",
+'error_cant_run_download'			=> "Can't start (resume) download:\n",
+'error_cant_pause_download'			=> "Can't pause download:\n",
+'error_cant_stop_download'			=> "Can't stop download:\n",
+'error_cant_delete_download'		=> "Can't delete download:\n",
+'error_wrong_file_id'				=> "File with specified ID was not found.",
+'error_cant_unlink_file'			=> "Can't delete temporary download file.",
+'error_download_is_running'			=> "File is already downloading.",
+'error_download_is_not_running'		=> "File is not downloading.",
+'error_time_restriction'			=> "Current time is in forbidden time interval or not in the allowed one",
+'error_too_many_downloads'			=> "Simultaneous downloads limit is reached now. Download queue has been created.",
+'error_module_disabled'				=> "Module for this download was disabled by the administrator.",
+
+'error_cant_load_file_module'		=> "Can't plug module associated with the download.",
+
+);
+
+?>

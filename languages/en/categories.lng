@@ -1,0 +1,109 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @link 		http://www.dini.su
+* @copyright	2007—2008
+*
+* @translator	platinum_sn
+* @tr_email		admin@buhgalteria.net
+*
+* @name			Language set for category section
+*/
+
+$lang = array(
+
+'page_title'						=> "Categories management",
+'page_desc'							=> "Here you can add or remove categories, change properties of existing categories and see the file list of any category.",
+
+'category_add'						=> "Add subcategory",
+'category_edit'						=> "Category properties for",
+'category_delete'					=> "Delete category",
+'category_move'						=> "Move category",
+
+'shared_cat'						=> "Shared",
+'moving_cat'						=> "Moving category",
+
+'category_added'					=> "Category successfully added.",
+'category_edited'					=> "Category properties successfully changed.",
+
+'js_confirm_delete_cat'				=> "Warning! The current category and all its subcategories are to be deleted. Category's file list is to be deleted, as well. Files will not be physically removed from the disk.\\\\nAre you sure you want delete category?",
+
+//-----------------------------------------------
+// Properties list
+//-----------------------------------------------
+
+'category_name'						=> "Name",
+'category_icon'						=> "Icon",
+'category_path'						=> "Relative path <desc>You can use A-Z letters, digits, underline sign, space and slash.</desc>",
+'category_desc'						=> "Description",
+'category_types'					=> "Extensions of saved files<desc>Extensions are set using letters and spaces, without any other symbols.</desc>",
+
+//-----------------------------------------------
+// File list
+//-----------------------------------------------
+
+'file_edit'							=> "File properties",
+'file_delete'						=> "Delete file(s)",
+'file_move'							=> "Move file(s)",
+'file_edited'						=> "File properties have been changed.",
+'file_edit_button'					=> "Properties",
+'file_delete_button'				=> "Delete",
+'file_move_button'					=> "Move",
+
+'content_sort_name'					=> "Name",
+'content_sort_added'				=> "Added",
+'content_sort_size'					=> "Size",
+
+'content_sort_asc'					=> "Ascending",
+'content_sort_desc'					=> "Descending",
+
+'cat_is_empty'						=> "Category is empty",
+
+'js_confirm_file_delete'			=> "Warning! Selected files will be deleted from the category list now. But they will be kept on your hard disk.\\\\nAre you sure you want delete these files?",
+
+//-----------------------------------------------
+// Errors
+//-----------------------------------------------
+
+'error_no_cat_id'					=> "There is no category with such ID.",
+'error_wrong_cat_id'				=> "Wrong category ID is specified.",
+'error_no_cat_name'					=> "No category name has been set.",
+'error_no_cat_icon'					=> "No category icon has been selected.",
+'error_wrong_cat_path'				=> "Category path contains invalid symbols.\\\\nYou can use A-Z letters, digits, underline sign, space and slash.",
+'error_wrong_cat_types'				=> "File types are set incorrectly.",
+'error_cant_get_owner_id'			=> "Failed to identify category owner's ID.",
+'error_no_cats_found'				=> "No categories found to perform moving action.",
+'error_wrong_to_id'					=> "Wrong new parent directory ID is specified.",
+'error_cant_move_to_child'			=> "Can't move current category to the selected, because the selected category is the sub-category of the current category.",
+'error_cant_move_to_parent'			=> "Can't move current category to the selected, because the current category is already in the selected category.",
+'error_wrong_parent_cat'			=> "Can't move current category to the selected.",
+'error_cant_move_this_cat'			=> "Unable to move current category to the selected.",
+'error_no_file_id'					=> "No file with such ID found.",
+
+'error_cant_edit_cat'				=> "You have no rights to change this category's properties.",
+'error_cant_add_cat'				=> "You have no rights to add subcategory.",
+'error_cant_delete_cat'				=> "You have no rights to delete this category.",
+'error_cant_move_cat'				=> "You have no rights to move this category.",
+
+'error_wrong_parent_cat_for_file'	=> "Can't move selected files to the specified category.",
+
+'js_error_cant_detect_active_dir'	=> "Can't detect active directory.",
+'js_error_cant_edit_root'			=> "This category has no properties.",
+'js_error_cant_delete_root'			=> "You can't delete this category.",
+'js_error_cant_move_root'			=> "You can't move this category.",
+'js_error_cant_move_cat'			=> "Can't activate category moving mode due to file moving mode is active now.",
+'js_error_last_level'				=> "Can't create subdirectory here, because the system supports only 5-level nesting.",
+'js_error_last_level_move'			=> "Can't move current directory to selected, because the system supports only 5-level nesting.",
+
+'js_error_select_file_edit'			=> "To view file properties, select this file in the list and press 'Properties' button in the menu above the files list.",
+'js_error_select_file_delete'		=> "To delete files, select necessary files in the list and press 'Delete' button in the menu above the files list.",
+'js_error_select_file_move'			=> "To move files, select necessary files in the list, press 'Move' button in the menu above the files list and click on the category in the list you want to move files to.",
+'js_error_cant_move_file'			=> "Can't activate file moving mode due to category moving mode is active now.",
+
+);
+
+?>

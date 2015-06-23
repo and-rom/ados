@@ -1,0 +1,121 @@
+<?php
+
+/**
+* @package		ADOS - Automatic Downloading System
+* @version		1.3.9 (build 74)
+*
+* @author		DINI
+* @link 		http://www.dini.su
+* @copyright	2007—2008
+*
+* @translator	platinum_sn
+* @tr_email		admin@buhgalteria.net
+*
+* @name			Language set for download section
+*/
+
+$lang = array(
+
+'page_title'						=> "Downloads management",
+'page_desc'							=> "Here you can add downloads, see list of current downloads and manage downloads.",
+
+'user_all'							=> "All downloads",
+'user_share'						=> "Shared downloads",
+
+//-----------------------------------------------
+// Userlist
+//-----------------------------------------------
+
+'download_idle'						=> "Idle",
+'download_running'					=> "Downloading",
+'download_paused'					=> "Paused",
+'download_query'					=> "On queue",
+'download_schedule'					=> "Scheduled",
+'download_continue'					=> "Resume is scheduled",
+'download_blocked'					=> "Blocked",
+'download_stopped'					=> "Stopped",
+'download_error'					=> "Error",
+'download_done'						=> "Finished",
+
+//-----------------------------------------------
+// Downloads list
+//-----------------------------------------------
+
+'download_add'						=> "Add links",
+'download_edit'						=> "Download properties",
+'download_run'						=> "Start (resume) downloads",
+'download_run_all'					=> "Start (resume) all downloads",
+'download_pause'					=> "Pause downloads",
+'download_pause_all'				=> "Pause all downloads",
+'download_stop'						=> "Stop downloads",
+'download_stop_all'					=> "Stop all downloads",
+'download_delete'					=> "Delete downloads",
+'download_delete_all'				=> "Delete all downloads",
+'download_refresh'					=> "Refresh downloads list",
+
+'priority_high'						=> "High priority",
+'priority_med'						=> "Normal priority",
+'priority_low'						=> "Low priority",
+
+'no_downloads'						=> "There are no downloads for selected user or with specified status",
+
+'items_sort_user'					=> "User",
+'items_sort_name'					=> "Name",
+'items_sort_size'					=> "Size",
+'items_sort_left'					=> "Left",
+'items_sort_time'					=> "Time",
+
+'js_desc_field_close'				=> "Hide description field",
+'js_desc_field_open'				=> "Show description field",
+
+//-----------------------------------------------
+// Download management
+//-----------------------------------------------
+
+'form_next'							=> "Next >",
+
+'form_add_links_title'				=> "Add links",
+'form_add_links_here'				=> "Enter one or several links to downloading file, or enter text containing links to download:",
+'form_add_links_confirm'			=> "Check the links you want to download:",
+'form_add_links_check_all'			=> "Select all",
+
+'js_confirm_download_stop'			=> "Warning: after download stop, all downloaded data will be lost.\\\\nAre you sure you want to stop download?",
+'js_confirm_download_delete'		=> "Warning: now all information about download and downloaded data will be deleted.\\\\nAre you sure you want to delete download?",
+
+'js_confirm_download_stop_multi'	=> "Warning: after downloads stop, all downloaded data will be lost.\\\\nAre you sure you want to stop selected downloads?",
+'js_confirm_download_delete_multi'	=> "Warning: now all information about downloads and downloaded data will be deleted.\\\\nAre you sure you want to delete selected downloads?",
+
+'js_confirm_download_stop_all'		=> "Warning: after downloads stop, all downloaded data will be lost.\\\\nAre you sure you want to stop all downloads?",
+'js_confirm_download_delete_all'	=> "Warning: now all all information about downloads and downloaded data will be deleted.\\\\nAre you sure you want to delete all downloads?",
+
+//-----------------------------------------------
+// Errors
+//-----------------------------------------------
+
+'error_no_links'					=> "Link field can't be blank.",
+'error_wrong_link'					=> "Link is invalid.",
+'error_wrong_links'					=> "At least one link in entered text is invalid.",
+
+'error_wrong_download_id'			=> "There is no download with such ID.",
+'error_refresh_for_running'			=> "Refresh is availible only for currently processing downloads.",
+
+'error_shared_downloads_only'		=> "Private downloads creation was forbidden by the system administrator. Please create a shared one.",
+
+'js_error_links_list_empty'			=> "Form's filed was not filled.",
+'js_error_wrong_user'				=> "Only sahred or private downloads can be added.",
+'js_error_select_item_edit'			=> "To view download properties, press 'Properties' button in the menu above the list.",
+
+'js_error_select_item_change_state'	=> "To change download status, select necessary downloads(s) and press one of the availible status buttons in the menu above the list.",
+'js_error_list_is_empty'			=> "Can't change status, because download list is blank.",
+
+'error_wrong_change_state'			=> "Can't change download status.",
+'error_no_ids_to_change'			=> "Can't get download ID.",
+'error_no_ids_found'				=> "No downlioads with such ID found.",
+'error_no_modules'					=> "Can't change any download status, because there are no enabled modules in the system.",
+
+'error_null_download_speed'			=> "0 kbit/s speed limit is set for the user.",
+'files_cache_is_empty'				=> "There is no data about starting downloads in cache.",
+
+);
+
+?>

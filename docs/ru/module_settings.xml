@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ados>
+	<module>
+		<key>key</key>
+		<name>My Module</name>
+		<author>It's Me</author>
+		<url>http://www.mysite.com</url>
+		<version>1.0.0</version>
+		<engine_author>My Best Friend</engine_author>
+		<engine_url>http://www.mybestfriend.com</engine_url>
+		<engine_version_support>1.2.3 [plus]</engine_version_support>
+	</module>
+	<settings>
+		<element force_upgrade="false" can_edit="true">
+			<key>engine_path</key>
+			<default>/opt/bin/example</default>
+			<type>text</type>
+			<position>1</position>
+		</element>
+	</settings>
+</ados>

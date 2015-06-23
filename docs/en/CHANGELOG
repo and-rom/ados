@@ -1,0 +1,69 @@
+VERSION HISTORY
+
+1.3.9 (07.09.2008)
+	+ Starting from this version the script is distrubuted under GNU GPL v3 license.
+	! Generating links when using secure connection with non-standard port (earlier secure
+	  connection was used only with standard 443 port) — thanks to many people for report.
+
+1.3.8 (24.04.2008)
+	+ Ability to specify port number at the authorization screen (this function will be useful when
+	  using port forwarding) — thanks to raas for help.
+
+1.3.7 (22.04.2008)
+	! Added processing of commas and vertical bars in the links — thanks to AiSt for report.
+
+1.3.6 (05.04.2008)
+	* Fields for cookies' settings during installation process now will be blank by default. Fill
+	  them only if you know what to specify in these fields.
+	! Not specifiying the password for MySQL database during installation process is not an error
+	  any more — thanks to PyKaB for report.
+	! Fixed pathes to files 'pease_wait.gif' and 'favicon.ico' in the templates — thanks to PyKaB
+	  for report.
+	! Query to the database while checking files' queue during cron task — thanks to sarlacc for
+	  report.
+
+1.3.5 (26.03.2008)
+	! Adding subcategories to root categories (earlier it was not possible to create a subcategory
+	  in the root category) — thanks to bocman for report.
+	! Absolute path to the file 'none.gif' in CSS was changed to relative — thanks to Сhemist for
+	  report.
+
+1.3.4 (16.03.2008)
+	! Escaping query strings for SQLite DB — thanks to katos for report.
+
+1.3.3 (10.03.2008)
+	+ Ability to use secure connection (HTTPS).
+	! System events deleting (erarlier the error "No events with such ID" appeared when deleting
+	  events of the specified type).
+
+1.3.2 (02.03.2008)
+	+ Ability to automatically delete lock files — thanks to Nomad13 for advice.
+	+ Ability to set default language in the list of installed system languages.
+	* Button 'Log' in the upper menu was moved to the right and is now located near the 'Settings'
+	  button. I think that menu's structure is now more accurate.
+	! In the authorization menu now system's default language is used (earlier in this menu, if the
+	  system has been installed with multilingual support, English laguage was used regardless of
+	  the specified default language) — thanks to Zyxmon for report.
+	! Correct detection of the server port (earlier port could be unidentified) — thanks to timoha
+	  for report.
+	! Errors in some MySQL queries — thanks to sarlacc for report.
+	! System logout (earlier the logout could not be proceeded due to an error with cookies) —
+	  thanks to PupsDRVR, Zyxmon and AlexVx for report.
+	  
+1.3.1 (27.02.2008)
+	First public release for English-speaking users.
+	Thanks to platinum_sn and JluMoHka for their help in translation!
+
+1.0.0 Final (06.10.2007)
+	First stable version.
+
+1.0.0 beta 1 build 1 (27.07.2007)
+	First public release for Russian-speaking users.
+
+1.0.0 dev and alpha (may-july 2007)
+	Developing and testing of the script.
+
+---
++ — new function
+* — updated function
+! — fixed function
